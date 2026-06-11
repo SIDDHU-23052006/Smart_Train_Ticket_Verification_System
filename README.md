@@ -43,7 +43,7 @@ The Smart Train Ticket Verification System (SMTTVS) is an intelligent railway mo
 
 <td align="center">
 <b>RFID Verification Unit</b><br><br>
-<img src="./assets/rfid-unit.jpg" width="400">
+<img src="./assets/rfid-unit.png" width="400">
 </td>
 </tr>
 </table>
