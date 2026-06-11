@@ -62,7 +62,7 @@ The Smart Train Ticket Verification System (SMTTVS) is an intelligent railway mo
 ## Real-Time Train Installation
 
 <p align="center">
-  <img src="./assets/train-installation.jpg" width="500">
+  <img src="./assets/train-installation.jpeg" width="500">
 </p>
 
 ---
