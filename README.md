@@ -1,137 +1,99 @@
-# 🚆 Smart Train Ticket Verification System (SMTTVS)
-
-## 📌 Overview
-
-Smart Train Ticket Verification System (SMTTVS) is an intelligent railway ticket verification solution developed to assist Traveling Ticket Examiners (TTEs) in identifying unauthorized passengers and managing train compartments digitally.
-
-The system integrates:
-
-- RFID Based Passenger Verification
-- Real-Time Unauthorized Entry Detection
-- TTE Authentication & OTP Verification
-- Smart Compartment Management
-- Seat Allocation Visualization
-- Train Modification & Fine Management
-- Web and Mobile Dashboard
+# Smart Train Ticket Verification System (SMTTVS)
 
 ---
 
-# 🎯 Problem Statement
+## Overview
 
-Unauthorized travel in trains causes:
-
-- Revenue loss
-- Passenger inconvenience
-- Manual verification difficulties
-- Security concerns
-
-SMTTVS provides an automated solution for identifying and tracking passengers entering train compartments.
+The Smart Train Ticket Verification System (SMTTVS) is an intelligent railway monitoring and ticket verification solution that assists Traveling Ticket Examiners (TTEs) in identifying unauthorized passengers, managing compartments, and improving train security through RFID and IoT technologies.
 
 ---
 
-# 🛠 Technology Stack
+## Technology Stack
 
-| Technology | Usage |
-|------------|--------|
+| Technology | Purpose |
+|------------|----------|
 | React.js | Frontend |
 | Flask / Node.js | Backend |
 | Firebase | Authentication & Database |
 | ESP32 | Hardware Controller |
 | RFID RC522 | Passenger Verification |
-| PIR Sensors | Entry/Exit Detection |
+| PIR Sensors | Entry Monitoring |
 | ESP32-CAM | Passenger Monitoring |
 | Figma | UI Design |
 | Vercel | Deployment |
 
 ---
 
-# 🏗 System Architecture
+## System Architecture
 
 <p align="center">
-  <img src="assets/3D-design.svg" width="800">
+  <img src="./assets/architecture.svg" width="900">
 </p>
 
 ---
 
-# 🔧 Hardware Prototype
+## Hardware Prototype
 
-<table>
+<table align="center">
 <tr>
 <td align="center">
-
-### 3D Printed Prototype
-
-<img src="assets/prototype.jpg" width="350">
-
+<b>3D Printed Prototype</b><br><br>
+<img src="./assets/prototype.jpg" width="400">
 </td>
 
 <td align="center">
-
-### RFID Verification Unit
-
-<img src="assets/rfid-unit.jpg" width="350">
-
+<b>RFID Verification Unit</b><br><br>
+<img src="./assets/rfid-unit.jpg" width="400">
 </td>
 </tr>
 </table>
 
 ---
 
-# 🖨 3D Printing Process
-
-<table>
-<tr>
-<td>
-
-<img src="assets/3d-print-1.jpg" width="450">
-
-</td>
-
-<td>
-
-<img src="assets/3d-print-2.jpg" width="450">
-
-</td>
-</tr>
-</table>
-
----
-
-# 🚄 Real-Time Train Installation
+## 3D Printing Process
 
 <p align="center">
-  <img src="assets/train-installation.jpg" width="500">
+  <img src="./assets/3d-print-1.jpg" width="450">
+  <img src="./assets/3d-print-2.jpg" width="450">
 </p>
 
 ---
 
-# 📱 Mobile Application UI
-
-## Splash Screen
+## Real-Time Train Installation
 
 <p align="center">
-  <img src="assets/1.png" width="250">
+  <img src="./assets/train-installation.jpg" width="500">
 </p>
 
 ---
 
-## Registration | Login | OTP
+## Mobile Application UI
 
-<table>
+### Splash Screen
+
+<p align="center">
+  <img src="./assets/splash.png" width="250">
+</p>
+
+---
+
+### Registration | Login | OTP
+
+<table align="center">
 <tr>
 
 <td align="center">
-<img src="assets/2.png" width="220"><br>
+<img src="./assets/register.png" width="220"><br>
 Registration
 </td>
 
 <td align="center">
-<img src="assets/3.png" width="220"><br>
+<img src="./assets/login.png" width="220"><br>
 Login
 </td>
 
 <td align="center">
-<img src="assets/4.png" width="220"><br>
+<img src="./assets/otp.png" width="220"><br>
 OTP Verification
 </td>
 
@@ -140,144 +102,146 @@ OTP Verification
 
 ---
 
-## Home Dashboard
+### Dashboard
 
 <p align="center">
-  <img src="assets/Screenshot-2025-09-06-212817.png" width="250">
+  <img src="./assets/dashboard.png" width="250">
 </p>
 
 ---
 
-## Take Charge Module
+### Take Charge Module
 
 <p align="center">
-  <img src="assets/7.png" width="250">
+  <img src="./assets/take-charge.png" width="250">
 </p>
 
 ---
 
-## Compartment Details
+### Compartment Details
 
 <p align="center">
-  <img src="assets/8.png" width="250">
+  <img src="./assets/compartment.png" width="250">
 </p>
 
 ---
 
-# 🚃 Seat Management System
+## Seat Management System
 
-<table>
+<table align="center">
 
 <tr>
+
 <td align="center">
-<img src="assets/8(1).png" width="220"><br>
+<img src="./assets/general.png" width="220"><br>
 General
 </td>
 
 <td align="center">
-<img src="assets/8(2).png" width="220"><br>
+<img src="./assets/sleeper.png" width="220"><br>
 Sleeper
 </td>
 
 <td align="center">
-<img src="assets/8(3).png" width="220"><br>
+<img src="./assets/ac3.png" width="220"><br>
 AC 3-Tier
 </td>
+
 </tr>
 
 <tr>
+
 <td align="center">
-<img src="assets/8(4).png" width="220"><br>
+<img src="./assets/ac2.png" width="220"><br>
 AC 2-Tier
 </td>
 
 <td align="center">
-<img src="assets/8(5).png" width="220"><br>
+<img src="./assets/ac1.png" width="220"><br>
 AC 1-Tier
 </td>
 
 <td align="center">
-<img src="assets/8(6).png" width="220"><br>
+<img src="./assets/chaircar.png" width="220"><br>
 Chair Car
 </td>
+
 </tr>
 
 </table>
 
 ---
 
-# 🚨 Unauthorized Passenger Alert
+## Unauthorized Passenger Detection
 
 <p align="center">
-  <img src="assets/Screenshot-2025-09-06-212956.png" width="250">
+  <img src="./assets/alert.png" width="250">
 </p>
 
 ---
 
-# 🚂 Train Modification Module
+## Train Modification Module
 
 <p align="center">
-  <img src="assets/8(7).png" width="250">
+  <img src="./assets/modification.png" width="250">
 </p>
 
 ---
 
-# ⚙ Working Flow
+## System Workflow
 
 ```text
-Passenger RFID Scan
-        ↓
-Entry Validation
-        ↓
-PIR Sensor Detection
-        ↓
-Passenger Entry Recorded
-        ↓
+RFID Scan
+    │
+    ▼
+Passenger Authentication
+    │
+    ▼
+Entry Detection
+    │
+    ▼
 Compartment Monitoring
-        ↓
+    │
+    ▼
 Unauthorized Entry Detection
-        ↓
-Alert Sent to TTE
-        ↓
-Fine / Verification Process
+    │
+    ▼
+Alert Generation
+    │
+    ▼
+TTE Verification
+    │
+    ▼
+Fine Processing
 ```
 
 ---
 
-# ✨ Key Features
+## Key Features
 
-✅ RFID-Based Passenger Verification
-
-✅ Unauthorized Passenger Detection
-
-✅ Real-Time Alerts to TTE
-
-✅ Smart Seat Management
-
-✅ OTP Based TTE Authentication
-
-✅ Compartment Monitoring
-
-✅ Fine Charging System
-
-✅ Train Modification Management
-
-✅ Firebase Cloud Integration
-
-✅ Responsive Mobile Application
+- RFID Based Passenger Verification
+- Unauthorized Passenger Detection
+- Real-Time TTE Alerts
+- Smart Seat Management
+- OTP Based Authentication
+- Firebase Integration
+- Train Modification Module
+- Fine Charging System
+- Mobile Friendly Interface
+- IoT Enabled Monitoring
 
 ---
 
-# 👨‍💻 Developed By
+## Developer
 
 **Siddharth B**
 
-Smart Train Ticket Verification System (SMTTVS)
-
-Aspiring Software Engineer | IoT Developer | Full Stack Developer
+Aspiring Software Engineer  
+IoT Developer  
+Full Stack Developer
 
 ---
 
-# 📜 License
+## License
 
-This project is developed for educational and research purposes.
+This project is developed for educational, research, and innovation purposes.
